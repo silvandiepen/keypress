@@ -1,0 +1,3 @@
+$.keypress = function(){
+	return true;
+};
