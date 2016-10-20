@@ -2,8 +2,7 @@
   "name": "keypress",
   "version": "0.0.1",
   "main": [
-    "keypress.js",
-    "keys.json"
+    "keypress.js"
   ],
   "ignore": [
     "config",
