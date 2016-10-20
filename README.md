@@ -2,7 +2,7 @@
 
 Easy module to link a keypress to a function.  
 
-### Initialize Selector
+### Initialize keypress (example)
 
 ```javascript
 $('body').keypress({
