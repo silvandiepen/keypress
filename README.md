@@ -1,5 +1,4 @@
-jQuery.Keypress
----------------
+# jQuery.Keypress
 
 A simple jQuery extension to catch keypresses and make them do whatever you want with functions.
 
@@ -18,10 +17,7 @@ $('body').keypress({
 });
 ```
 
-### The script
-
-Include this script in your index.html.
-
+### The code
 
 ```javascript
         
@@ -69,5 +65,5 @@ Install the script with bower or make your own files
 ### Bower
 
 ```
-bower install keypress --save-dev
+bower install keypress --save
 ```
