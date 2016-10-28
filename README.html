@@ -1,0 +1,19 @@
+<h1 id="jquery-keypress">jQuery.Keypress</h1>
+<p>A simple jQuery extension to catch keypresses and make them do whatever you want with functions.</p>
+<h3 id="available-keys">Available keys</h3>
+<p> backspace, tab, enter, shift, ctrl, alt, pause, capslock, escape, space, pageup, pagedown, end, home, leftarrow, uparrow, rightarrow, downarrow, insert, delete, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, left, right, select, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, multiply, add, substract, decimalpoint, divide, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, numlock, scrolllock, semi-colon, equalsign, comma, dash, period, forwardslash, graveaccent, openbracket, backslash, closebacket, singlequote</p>
+<h3 id="initialize-keypress-example-">Initialize keypress (example)</h3>
+<pre><code class="lang-javascript">$(&#39;body&#39;).keypress({
+    a: function(){ alert(&#39;Youve clicked a&#39;); },
+    delete: function(){ alert(&#39;Do something with delete&#39;); },
+    rightarrow:  function(){ alert(&#39;go to next section&#39;); }
+});
+</code></pre>
+<h2 id="installation">Installation</h2>
+<p>Install the script with bower or make your own files</p>
+<h3 id="embed">Embed</h3>
+<pre><code class="lang-html">&lt;script type=&quot;text/javascript&quot; src=&quot;vendor/jquery.keypress.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<h3 id="bower">Bower</h3>
+<pre><code>bower install keypress --save
+</code></pre>
